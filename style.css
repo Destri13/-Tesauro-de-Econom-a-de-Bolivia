@@ -2,28 +2,28 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f0f2f5; /* Un gris claro suave */
+    background-color: #f0f2f5;
     color: #333;
     line-height: 1.6;
-    display: flex; /* Para centrar el contenido verticalmente */
-    justify-content: center; /* Para centrar el contenido horizontalmente */
-    align-items: flex-start; /* Alinea el contenido al inicio (arriba) */
-    min-height: 100vh; /* Asegura que ocupe al menos toda la altura de la vista */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
 }
 .container {
     max-width: 900px;
-    width: 100%; /* Asegura que ocupe el ancho disponible */
-    margin: 30px auto; /* Margen superior e inferior para el contenedor */
+    width: 100%;
+    margin: 30px auto;
     background-color: #ffffff;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 h1 {
-    color: #2c3e50; /* Azul oscuro para el título */
+    color: #2c3e50;
     text-align: center;
     margin-bottom: 20px;
-    font-size: 2.2em; /* Tamaño de fuente un poco más grande */
+    font-size: 2.2em;
 }
 p {
     text-align: center;
@@ -32,14 +32,14 @@ p {
     font-size: 1.1em;
 }
 
-/* Estilos para el buscador de Google - CSE lo inyecta dinámicamente */
-/* Puedes inspeccionar los elementos en tu navegador para ver qué clases o IDs usan los elementos de Google */
-/* Por ejemplo, puedes querer ajustar el ancho de la barra de búsqueda o los resultados */
+/* 
+/* 
+/* /
 .gsc-control-cse {
     padding: 0 !important; /* Elimina padding por defecto si molesta */
 }
 .gsc-search-button-v2, .gsc-search-button-v2:hover {
-    background-color: #007bff !important; /* Color azul del botón de búsqueda */
+    background-color: #007bff !important; 
     border-color: #007bff !important;
     box-shadow: none !important;
 }
@@ -48,9 +48,7 @@ p {
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1) !important;
 }
 
-/* Puedes añadir más estilos para los resultados si quieres, 
-   usando selectores como .gs-result o .gs-title */
-
+/* 
 .footer {
     text-align: center;
     margin-top: 40px;
