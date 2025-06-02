@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f2f5; /* Un gris claro suave */
+    color: #333;
+    line-height: 1.6;
+    display: flex; /* Para centrar el contenido verticalmente */
+    justify-content: center; /* Para centrar el contenido horizontalmente */
+    align-items: flex-start; /* Alinea el contenido al inicio (arriba) */
+    min-height: 100vh; /* Asegura que ocupe al menos toda la altura de la vista */
+}
+.container {
+    max-width: 900px;
+    width: 100%; /* Asegura que ocupe el ancho disponible */
+    margin: 30px auto; /* Margen superior e inferior para el contenedor */
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+h1 {
+    color: #2c3e50; /* Azul oscuro para el título */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.2em; /* Tamaño de fuente un poco más grande */
+}
+p {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #555;
+    font-size: 1.1em;
+}
+
+/* Estilos para el buscador de Google - CSE lo inyecta dinámicamente */
+/* Puedes inspeccionar los elementos en tu navegador para ver qué clases o IDs usan los elementos de Google */
+/* Por ejemplo, puedes querer ajustar el ancho de la barra de búsqueda o los resultados */
+.gsc-control-cse {
+    padding: 0 !important; /* Elimina padding por defecto si molesta */
+}
+.gsc-search-button-v2, .gsc-search-button-v2:hover {
+    background-color: #007bff !important; /* Color azul del botón de búsqueda */
+    border-color: #007bff !important;
+    box-shadow: none !important;
+}
+.gsc-input-box {
+    border-color: #ced4da !important;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Puedes añadir más estilos para los resultados si quieres, 
+   usando selectores como .gs-result o .gs-title */
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+    color: #777;
+    font-size: 0.9em;
+}
+
+/* Medias queries para responsividad en pantallas más pequeñas */
+@media (max-width: 768px) {
+    .container {
+        margin: 15px auto;
+        padding: 20px;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+    p {
+        font-size: 1em;
+    }
+}
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    .container {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+}
